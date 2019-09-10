@@ -11,11 +11,37 @@
 </head>
 
 <body>
+    <div class="container">
+        <div class="header text-center clearfix">
+            <h1 class="text-muted"> trivia game</h1>
+        </div>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div id="game">
+                    <h2>Trivia Game</h2>
+                    <p id="remaining-time" class="lead">Remaining Time: <span id="timer"></span></p>
+                    <p id="question" class="lead"></p>
+                </div>
+                <div id="results">
+                </div>
+            </div>
 
-    <!-- JAVASCRIPT  -->
-    <!-- ========================================= -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/javascript/app.js"></script>
+            <div class="row">
+                <div id="choices" class="text-center">
+                    <button id="start" class="btn btn-info btn-lg">Start Game</button>
+                    <div id="options">
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- /container -->
+        <!-- JAVASCRIPT  -->
+        <!-- ========================================= -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
